@@ -23,6 +23,7 @@ $(call inherit-product, device/xiaomi/haydn/device.mk)
 
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/arrow/config/common.mk)
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
