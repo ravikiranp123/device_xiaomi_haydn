@@ -133,8 +133,8 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 # HIDL
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/vintf/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(DEVICE_PATH)/vintf/framework_compatibility_matrix.xml \
-    vendor/arrow/config/device_framework_matrix.xml
+    $(DEVICE_PATH)/vintf/framework_compatibility_matrix.xml #\
+    #vendor/arrow/config/device_framework_matrix.xml
 
 ODM_MANIFEST_SKUS += nfc
 ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/vintf/manifest_nfc.xml
